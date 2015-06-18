@@ -16,4 +16,6 @@ def hangman_display(secret, guessed):
         else:
             reveal += '_' 
     return reveal 
+def guessrand():
+    '''choose and print a random number''' 
     
